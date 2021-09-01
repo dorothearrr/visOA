@@ -1,5 +1,5 @@
 # Analyzing open data sources with R
-Monday, 13 September 2021, 09:30 - 12:00
+Materials for the workshop "Analysing open data sources with R" at the Visualizing Open Access Summer School, Monday, 13 September 2021, 09:30 - 12:00
 
 ## Goals
 get to know some open data sources for Open Access
