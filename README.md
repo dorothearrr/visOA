@@ -5,6 +5,7 @@ Materials for the workshop "Analysing open data sources with R" at the [Visualiz
 get to know some open data sources for Open Access
 - learn how to use open data sources
 - learn about the importance of persistent identifiers
+
 get to know some R basics
 - learn how to prepare and analyse data
 - learn how to visualize data
