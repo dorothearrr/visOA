@@ -1,6 +1,8 @@
 # Analyzing open data sources with R
 Materials for the workshop "Analysing open data sources with R" at the [Visualizing Open Access Summer School](https://uclab.fh-potsdam.de/visoa/), Monday, 13 September 2021, 09:30 - 12:00
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dorothearrr/visOA/HEAD)
+
 ## Goals
 get to know some open data sources for Open Access
 - learn how to use open data sources
