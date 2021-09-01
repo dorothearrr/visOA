@@ -1,17 +1,14 @@
 # Analyzing open data sources with R
 Monday, 13 September 2021, 09:30 - 12:00
 
-Materials for the workshop "Analysing open data sources with R" at the [Visualizint Open Access Summer School 2021](https://uclab.fh-potsdam.de/visoa/).
-
-
 ## Goals
-get to know some open data sources for Open Access
-- learn how to use open data sources
+- get to know some open data sources for Open Access
+- get to know some R basics
+- learn how to use query open data sources
+- learn how to reshape and clean data
 - learn about the importance of persistent identifiers
 
-get to know some R basics
-- learn how to prepare and analyse data
-- learn how to visualize data
-
-## The structure of this repository
+## Outline
+- use case: monitorin Open Access publications at an institution
+- data sources: crossref / PID Graph, unpaywall ?
 - 
