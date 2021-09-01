@@ -2,13 +2,15 @@
 Monday, 13 September 2021, 09:30 - 12:00
 
 ## Goals
-- get to know some open data sources for Open Access
-- get to know some R basics
-- learn how to use query open data sources
-- learn how to reshape and clean data
+get to know some open data sources for Open Access
+- learn how to use open data sources
 - learn about the importance of persistent identifiers
+get to know some R basics
+- learn how to prepare and analyse data
+- learn how to visualize data
 
-## Outline
-- use case: monitorin Open Access publications at an institution
-- data sources: crossref / PID Graph, unpaywall ?
-- 
+
+## The structure of this repository
+- **demo** contains R scripts and Jupyter Notebooks for the workshop
+- **data** contains all the data you need during the workshop
+- after the workshop is over, I will add **solution**: Notebooks outlining all the steps in detail
