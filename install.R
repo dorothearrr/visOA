@@ -1,4 +1,7 @@
 install.packages("jsonlite")
+install.packages("purrr")
 install.packages("dplyr")
-install.packages("tidyr")
+install.packages("rcrossref")
+install.packages("roadoi")
+install.packages("forcats")
 install.packages("ggplot2")
