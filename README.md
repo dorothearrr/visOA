@@ -4,7 +4,7 @@ Materials for the workshop "Analysing open data sources with R" at the [Visualiz
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dorothearrr/visOA/HEAD)
 
 ## Before the workshop starts
-You will probably benefit most from this workshop if you install R and the integrated development environment RStudio on your computer. Both are free and easy to install. Here is what you need:
+You will probably benefit most from this workshop if you install R and the integrated development environment RStudio on a computer you have administrator rights on. Both are free and easy to install. Here is what you need:
 - download and install the latest version of R ([here](https://ftp.gwdg.de/pub/misc/cran/))
 - download and install the latest version of RStudio (RStudio Desktop, Open Source Edition: [here](https://www.rstudio.com/products/rstudio/))
 
