@@ -64,11 +64,7 @@ library(rcrossref)
 
 DOI_sample <- read.csv("./data/DOI_sample.csv", row.names = "X")
 
-DF_citations <- data.frame(c(doi = character(),
-                             count = numeric()))
-for (i in 1:nrow(DOI_sample)) {
-  DF_citations <- rbind(DF_citations, cr_citation_count(doi = DOI_sample[i,]))
-}
+DF_citations <- cr_citation_count(doi = DOI_sample$x)
 
 print(DF_citations)
 summary(DF_citations$count)
