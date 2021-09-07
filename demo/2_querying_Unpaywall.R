@@ -45,7 +45,7 @@ results$oa_status
 #install.packages("roadoi")
 library(roadoi)
 
-results <- roadoi::oadoi_fetch(dois = DF_crossref[1:10,2], email = "jdoe@example.org")
+results <- roadoi::oadoi_fetch(dois = DF_crossref[1:10,1], email = "jdoe@example.org")
 names(results)
 
 results$is_oa
