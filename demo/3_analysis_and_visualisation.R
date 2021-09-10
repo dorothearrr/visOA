@@ -14,13 +14,17 @@ library(forcats)
 DF_crossref <- read.csv("./data/crossref_metadata.csv", row.names = "X")
 DF_Unpaywall <- read.csv("./data/Unpaywall_metadata.csv", row.names = "X")
 
+# What do you think, why are DOIs great for joining metadata on publications?
 DF <- left_join(DF_crossref, DF_Unpaywall, by = "DOIs")
 
 
 
 # Step 3: inspecting the data
+
+# What does str tell you about the structure of the data frame?
 str(DF)
 
+# Use table to look at frequency distribution tables of publication_year and resource_type. Do you notice any issues with the data we might have to adress before we proceed?
 table(DF$publication_year)
 table(DF$resource_type)
 
@@ -37,11 +41,14 @@ sum(duplicated(DF$DOIs))
 
 
 
-# Step 5: 
+# Step 5: Analyze the results
+
+# How many publications are (not) Open Access?
 DF %>%
   count(is_oa) %>%
   mutate(percent = n / sum(n) * 100)
 
+# From the results, do you suspect a trend in the data?
 DF %>%
   group_by(publication_year) %>%
   count(is_oa) %>%
@@ -55,6 +62,7 @@ lm_not_oa <- lm(data = lm_not_oa, formula = n ~ publication_year)
 summary(lm_not_oa)$coef
 summary(lm_not_oa)$r.squared
 
+# Repeat the procedure for Open Access publications (setting *"is_oa == TRUE"*) and compare the results. What do you notice?
 lm_oa <- DF %>%
   filter(is_oa == TRUE) %>%
   group_by(publication_year) %>%
@@ -66,6 +74,8 @@ summary(lm_oa)$r.squared
 
 
 # Step 6: visualise the results
+
+# Do you like this plot? Why (not)?
 DF %>%
   count(is_oa) %>%
   ggplot(aes(x = is_oa, y = n)) +

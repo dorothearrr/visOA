@@ -66,5 +66,10 @@ DOI_sample <- read.csv("./data/DOI_sample.csv", row.names = "X")
 
 DF_citations <- cr_citation_count(doi = DOI_sample$x)
 
+# Have a look at the result.
+# What is the average citation count of this sample?
+# What publication has the highest citation count?
+# Try to access that publication. Can you open and read it?
+
 print(DF_citations)
 summary(DF_citations$count)

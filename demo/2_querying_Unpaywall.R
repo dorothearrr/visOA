@@ -48,5 +48,9 @@ library(roadoi)
 results <- roadoi::oadoi_fetch(dois = DF_crossref[1:10,1], email = "jdoe@example.org")
 names(results)
 
+# Have a look at the columns is_oa and journal_is_oa.
+# Can you imagine what the two variables represen?
+# Why do the values diverge in some cases, but not in others?
+
 results$is_oa
 results$journal_is_oa
